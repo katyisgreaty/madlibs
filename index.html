@@ -9,36 +9,38 @@
   </head>
   <body>
     <h1>Drunk Mad Libs</h1>
-    <h3>Fill in the blanks to make a hilarious drunken story!</h3>
     <div class="container">
-      <form>
-        <div class="form-group">
-          <label for="Name">Person's Name</label>
-          <input type="text" class="form-control" id="Name" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <label for="Verb">Verb</label>
-          <input type="text" class="form-control" id="Verb" placeholder="Verb">
-        </div>
-        <div class="form-group">
-          <label for="Room">Favorite room in the house</label>
-          <input type="text" class="form-control" id="Room" placeholder="Room">
-        </div>
-        <div class="form-group">
-          <label for="Noun">Plural Noun</label>
-          <input type="text" class="form-control" id="Noun" placeholder="Noun">
-        </div>
-        <div class="form-group">
-          <label for="Part">Body part</label>
-          <input type="text" class="form-control" id="Part" placeholder="Part">
-        </div>
-      </form>
+    <h3>Fill in the blanks to make a hilarious drunken story!</h3>
+      <div id="madlib">
+        <form>
+          <div class="form-group">
+            <label for="Name">Person's Name</label>
+            <input type="text" class="form-control" id="Name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="Verb">Verb</label>
+            <input type="text" class="form-control" id="Verb" placeholder="Verb">
+          </div>
+          <div class="form-group">
+            <label for="Room">Favorite room in the house</label>
+            <input type="text" class="form-control" id="Room" placeholder="Room">
+          </div>
+          <div class="form-group">
+            <label for="Noun">Plural Noun</label>
+            <input type="text" class="form-control" id="Noun" placeholder="Noun">
+          </div>
+          <div class="form-group">
+            <label for="Part">Body part</label>
+            <input type="text" class="form-control" id="Part" placeholder="Part">
+          </div>
+          <button type="submit" class="btn btn-success">Your Drunken Story Revealed!!!!</button>
 
-      <button type="submit" class="btn btn-success" name="button">Your Drunken Story Revealed!!!!</button>
+        </form>
+      </div>
 
-      <div class="hidden">
+      <div class="story">
         <h3>Your Story</h3>
-        <p>You were suddenly feeling frisky so you asked <span class="Name"></span> if he wanted to<span class="Verb"></span> in the <span class="Room"></span> with you. Normally, you use this room to store your vast collection of <span class="Noun"></span>, but this time you felt like switching things up.You just knew he was ready to go when he propped his <span class="Part"></span> up on the table.
+        <p>You were suddenly feeling frisky so you asked <span class="Name"></span> if they wanted to <span class="Verb"></span> in the <span class="Room"></span> with you. Normally, you use this room to store your vast collection of <span class="Noun"></span>, but this time you felt like switching things up. You just knew they were ready to go when they propped their <span class="Part"></span> up on the table.
         </p>
       </div>
     </div>
